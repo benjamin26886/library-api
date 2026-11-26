@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment variables (may contain local or secret settings)
+.env
+
+# SQLite database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs & coverage
+npm-debug.log*
+coverage/
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
